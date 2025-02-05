@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(99, 35, 105);
+    color: white;
+    font-size: larger;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: cursive;
+}
+
+button {
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 32px;
+    background-color: plum;
+    font-size: xx-large;
+    font-family: cursive;
+    color: white;
+}
+
+.text {
+    margin: 20px;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
